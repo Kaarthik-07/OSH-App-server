@@ -7,6 +7,7 @@ import axios from "axios";
 import { post_type } from "../lib/types";
 // user_id ---> github_name
 
+//for flask backend toxicity detector
 const flask_url = 'https://37b4-14-98-244-193.ngrok-free.app/add_post';
 const flask_toxicity_url = 'https://37b4-14-98-244-193.ngrok-free.app/check';
 
